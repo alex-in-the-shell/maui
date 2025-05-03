@@ -132,3 +132,4 @@
 /Users/alex/new_shopping_list/ShoppingListServer/obj/Debug/net9.0/ShoppingListServer.pdb
 /Users/alex/new_shopping_list/ShoppingListServer/obj/Debug/net9.0/ShoppingListServer.genruntimeconfig.cache
 /Users/alex/new_shopping_list/ShoppingListServer/obj/Debug/net9.0/ref/ShoppingListServer.dll
+/Users/alex/new_shopping_list/ShoppingListServer/obj/Debug/net9.0/ShoppingListServer.sourcelink.json
