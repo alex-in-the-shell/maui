@@ -1,0 +1,262 @@
+{
+  "version": 3,
+  "targets": {
+    "net9.0-android35.0": {},
+    "net9.0-android35.0/android-arm64": {},
+    "net9.0-android35.0/android-x64": {},
+    "net9.0-android35.0/iossimulator-arm64": {},
+    "net9.0-android35.0/maccatalyst-arm64": {},
+    "net9.0-ios18.2": {},
+    "net9.0-ios18.2/android-arm64": {},
+    "net9.0-ios18.2/android-x64": {},
+    "net9.0-ios18.2/iossimulator-arm64": {},
+    "net9.0-ios18.2/maccatalyst-arm64": {},
+    "net9.0-maccatalyst18.2": {},
+    "net9.0-maccatalyst18.2/android-arm64": {},
+    "net9.0-maccatalyst18.2/android-x64": {},
+    "net9.0-maccatalyst18.2/iossimulator-arm64": {},
+    "net9.0-maccatalyst18.2/maccatalyst-arm64": {}
+  },
+  "libraries": {},
+  "projectFileDependencyGroups": {
+    "net9.0-android35.0": [
+      "Microsoft.Extensions.Logging.Debug >= 9.0.0",
+      "Microsoft.Maui.Controls >= 9.0.0",
+      "Microsoft.NET.ILLink.Tasks >= 9.0.0",
+      "SQLitePCLRaw.bundle_e_sqlite3 >= 2.0.5",
+      "sqlite-net-pcl >= 1.9.2"
+    ],
+    "net9.0-ios18.2": [
+      "Microsoft.Extensions.Logging.Debug >= 9.0.0",
+      "Microsoft.Maui.Controls >= 9.0.0",
+      "Microsoft.NET.ILLink.Tasks >= 9.0.0",
+      "SQLitePCLRaw.bundle_e_sqlite3 >= 2.0.5",
+      "sqlite-net-pcl >= 1.9.2"
+    ],
+    "net9.0-maccatalyst18.2": [
+      "Microsoft.Extensions.Logging.Debug >= 9.0.0",
+      "Microsoft.Maui.Controls >= 9.0.0",
+      "Microsoft.NET.ILLink.Tasks >= 9.0.0",
+      "SQLitePCLRaw.bundle_e_sqlite3 >= 2.0.5",
+      "sqlite-net-pcl >= 1.9.2"
+    ]
+  },
+  "packageFolders": {
+    "/Users/alex/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/alex/new_shopping_list/ShoppingListClient/ShoppingListClient.csproj",
+      "projectName": "ShoppingListClient",
+      "projectPath": "/Users/alex/new_shopping_list/ShoppingListClient/ShoppingListClient.csproj",
+      "packagesPath": "/Users/alex/.nuget/packages/",
+      "outputPath": "/Users/alex/new_shopping_list/ShoppingListClient/obj/",
+      "projectStyle": "PackageReference",
+      "crossTargeting": true,
+      "configFilePaths": [
+        "/Users/alex/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net9.0-android",
+        "net9.0-ios",
+        "net9.0-maccatalyst"
+      ],
+      "sources": {
+        "/usr/local/share/dotnet/library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net9.0-android35.0": {
+          "targetAlias": "net9.0-android",
+          "projectReferences": {}
+        },
+        "net9.0-ios18.2": {
+          "targetAlias": "net9.0-ios",
+          "projectReferences": {}
+        },
+        "net9.0-maccatalyst18.2": {
+          "targetAlias": "net9.0-maccatalyst",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.100"
+    },
+    "frameworks": {
+      "net9.0-android35.0": {
+        "targetAlias": "net9.0-android",
+        "dependencies": {
+          "Microsoft.Extensions.Logging.Debug": {
+            "target": "Package",
+            "version": "[9.0.0, )"
+          },
+          "Microsoft.Maui.Controls": {
+            "target": "Package",
+            "version": "[9.0.0, )"
+          },
+          "Microsoft.NET.ILLink.Tasks": {
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[9.0.0, )",
+            "autoReferenced": true
+          },
+          "SQLitePCLRaw.bundle_e_sqlite3": {
+            "target": "Package",
+            "version": "[2.0.5, )"
+          },
+          "sqlite-net-pcl": {
+            "target": "Package",
+            "version": "[1.9.2, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.Android": {
+            "privateAssets": "all"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.101/PortableRuntimeIdentifierGraph.json"
+      },
+      "net9.0-ios18.2": {
+        "targetAlias": "net9.0-ios",
+        "dependencies": {
+          "Microsoft.Extensions.Logging.Debug": {
+            "target": "Package",
+            "version": "[9.0.0, )"
+          },
+          "Microsoft.Maui.Controls": {
+            "target": "Package",
+            "version": "[9.0.0, )"
+          },
+          "Microsoft.NET.ILLink.Tasks": {
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[9.0.0, )",
+            "autoReferenced": true
+          },
+          "SQLitePCLRaw.bundle_e_sqlite3": {
+            "target": "Package",
+            "version": "[2.0.5, )"
+          },
+          "sqlite-net-pcl": {
+            "target": "Package",
+            "version": "[1.9.2, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.iOS": {
+            "privateAssets": "all"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.101/PortableRuntimeIdentifierGraph.json"
+      },
+      "net9.0-maccatalyst18.2": {
+        "targetAlias": "net9.0-maccatalyst",
+        "dependencies": {
+          "Microsoft.Extensions.Logging.Debug": {
+            "target": "Package",
+            "version": "[9.0.0, )"
+          },
+          "Microsoft.Maui.Controls": {
+            "target": "Package",
+            "version": "[9.0.0, )"
+          },
+          "Microsoft.NET.ILLink.Tasks": {
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[9.0.0, )",
+            "autoReferenced": true
+          },
+          "SQLitePCLRaw.bundle_e_sqlite3": {
+            "target": "Package",
+            "version": "[2.0.5, )"
+          },
+          "sqlite-net-pcl": {
+            "target": "Package",
+            "version": "[1.9.2, )"
+          }
+        },
+        "imports": [
+          "xamarinios10",
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.MacCatalyst": {
+            "privateAssets": "all"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.101/PortableRuntimeIdentifierGraph.json"
+      }
+    },
+    "runtimes": {
+      "android-arm64": {
+        "#import": []
+      },
+      "android-x64": {
+        "#import": []
+      },
+      "iossimulator-arm64": {
+        "#import": []
+      },
+      "maccatalyst-arm64": {
+        "#import": []
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Unable to get repository signature information for source https://api.nuget.org/v3-index/repository-signatures/5.0.0/index.json.\n  The SSL connection could not be established, see inner exception.\n  Received an unexpected EOF or 0 bytes from the transport stream.",
+      "libraryId": "sqlite-net-pcl"
+    }
+  ]
+}

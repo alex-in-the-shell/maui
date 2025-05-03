@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "3kYleI2KtAcVIOUjEike4F4/YjMbf0sFozRd1M5RxtI=",
+  "Source": "ShoppingListServer",
+  "BasePath": "_content/ShoppingListServer",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

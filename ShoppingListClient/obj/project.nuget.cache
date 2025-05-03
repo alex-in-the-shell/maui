@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "rD1ROGdFcAc=",
+  "success": false,
+  "projectFilePath": "/Users/alex/new_shopping_list/ShoppingListClient/ShoppingListClient.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Unable to get repository signature information for source https://api.nuget.org/v3-index/repository-signatures/5.0.0/index.json.\n  The SSL connection could not be established, see inner exception.\n  Received an unexpected EOF or 0 bytes from the transport stream.",
+      "libraryId": "sqlite-net-pcl"
+    }
+  ]
+}
